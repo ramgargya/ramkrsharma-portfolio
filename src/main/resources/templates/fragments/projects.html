@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">My Work</h2>
+                <p class="section-subtitle">
+                    Explore some of my recent Projects
+                </p>
+            </div>
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/thumbnail1.jpg" alt="Ambulance Navigation System">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring Security</span>
+                            <span class="project-tag">REST APIs</span>
+                            <span class="project-tag">JWT</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Docker</span>
+                            <span class="project-tag">Postman</span>
+                            <span class="project-tag">Backend</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">The Journal Entry Application</h3>
+                        <p class="project-description">
+                            RESTful backend application for managing personal journal entries with full CRUD operations, role-based user/admin authentication, Spring Security for API protection, and MongoDB Atlas.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/ramgargya/journalApp-backend" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="https://www.postman.com/satellite-technologist-11603331/workspace/journal-entry-apis/collection/40376837-209a1338-1f27-412e-a0b2-979598ab0069?action=share&creator=40376837" class="project-link">
+                                Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/thumbnail2.jpg" alt="Ener Tracker">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Cloudinary</span>
+                            <span class="project-tag">JWT</span>
+                            <span class="project-tag">Spring Security</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">BiteBox - Food Delivery Application</h3>
+                        <p class="project-description">
+                            Full-stack food delivery app using Spring Boot & React with JWT-based auth. Admin manages food items (CRUD), users manage cart. Food images stored on Cloudinary, data on MongoDB.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/images/thumbnail4.jpg" alt="PitchPro">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">REST APIs</span>
+                            <span class="project-tag">Spring Security</span>
+                            <span class="project-tag">JWT</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Backend</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Authify by Spring Security</h3>
+                        <p class="project-description">
+                            Backend project for user authentication with role-based access for users and admins, secured via Spring Security, JWT in cookies for sessions, MySQL storage, and OTP-based email verification for password reset.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/ramgargya/authify-backend" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                Demo <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 style="text-align: center; margin-top: 25px;" class="project-title">Working on more projects...</h3>
+        </div>
+    </section>
+</th:block>
+</html>
